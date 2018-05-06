@@ -1,0 +1,36 @@
+{
+  "name": "generator-rocket.chat",
+  "version": "0.1.0",
+  "description": "Yeoman generator for Rocket.Chat artifacts",
+  "files": ["generators"],
+  "keywords": ["yeoman-generator"],
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "dependencies": {
+    "mongodb": "^3.0.7",
+    "yeoman-generator": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-availity": "^3.0.0-beta.11",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-promise": "^3.7.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.5",
+    "prettier": "^1.12.1"
+  },
+  "lint-staged": {
+    "*.{js,json,md}": ["prettier --write", "git add"]
+  },
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}

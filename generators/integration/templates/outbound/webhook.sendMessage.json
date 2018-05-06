@@ -1,0 +1,30 @@
+{
+  "_id": "<%= id %>",
+  "name": "<%= name %>",
+  "scriptPath": "<%= scriptPath %>",
+  "event": "sendMessage",
+  "enabled": false,
+  "username": "rocket.cat",
+  "channel": ["<%= channel %>"],
+  "triggerWords": ["<%= word %>"],
+  "urls": ["<%= url %>"],
+  "token": "<%= token %>",
+  "scriptEnabled": false,
+  "impersonateUser": false,
+  "retryFailedCalls": true,
+  "retryCount": 6,
+  "retryDelay": "powers-of-ten",
+  "triggerWordAnywhere": false,
+  "runOnEdits": true,
+  "type": "webhook-outgoing",
+  "userId": "rocket.cat",
+  "_createdAt": "<%= date %>",
+  "_createdBy": {
+    "username": "rocket.cat",
+    "_id": "rocket.cat"
+  },
+  "_updatedAt": "<%= date %>",
+  "alias": null,
+  "avatar": null,
+  "emoji": null
+}

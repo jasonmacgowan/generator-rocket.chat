@@ -1,0 +1,25 @@
+{
+  "_id": "<%= id %>",
+  "name": "<%= name %>",
+  "scriptPath": "<%= scriptPath %>",
+  "enabled": false,
+  "channel": ["<%= channel %>"],
+  "username": "rocket.cat",
+  "scriptEnabled": false,
+  "type": "webhook-incoming",
+  "token": "<%= token %>",
+  "userId": "rocket.cat",
+  "_createdAt": "<%= date %>",
+  "_createdBy": {
+    "username": "rocket.cat",
+    "_id": "rocket.cat"
+  },
+  "_updatedAt": "<%= date %>",
+  "_updatedBy": {
+    "username": "rocket.cat",
+    "_id": "rocket.cat"
+  },
+  "alias": null,
+  "avatar": null,
+  "emoji": null
+}

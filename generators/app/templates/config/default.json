@@ -1,0 +1,6 @@
+{
+  "mongodb": "mongodb://localhost:27017/rocketchat",
+  "collections": {
+    "integrations": "rocketchat_integrations"
+  }
+}
