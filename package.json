@@ -4,6 +4,15 @@
   "description": "Yeoman generator for Rocket.Chat artifacts",
   "files": ["generators"],
   "keywords": ["yeoman-generator"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonmacgowan/generator-rocket.chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonmacgowan/generator-rocket.chat/issues"
+  },
+  "homepage": "https://github.com/jasonmacgowan/generator-rocket.chat#readme",
+  "license": "MIT",
   "scripts": {
     "precommit": "lint-staged"
   },
